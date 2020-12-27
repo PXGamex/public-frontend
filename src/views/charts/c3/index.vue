@@ -138,7 +138,7 @@ export default {
       colors: {
         primary: '#01a8fe',
         def: '#acb7bf',
-        success: '#46be8a',
+        success: '#EF3B3D',
         danger: '#fb434a',
       },
     }

@@ -1,7 +1,7 @@
 <template>
   <div class="card-body position-relative overflow-hidden">
-    <div class="font-size-36 font-weight-bold text-dark mb-n2">1240</div>
-    <div class="text-uppercase">Transactions</div>
+    <div class="font-size-36 font-weight-bold text-dark mb-n2">Just Chatting</div>
+    <div class="text-uppercase">2,465 viewers</div>
     <div :class="$style.chartContainer">
       <vue-chartist
         :class="$style.chart"

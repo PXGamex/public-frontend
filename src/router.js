@@ -24,9 +24,9 @@ const router = new Router({
       children: [
         // Dashboards
         {
-          path: '/dashboard/alpha',
+          path: '/dashboard',
           meta: {
-            title: 'Dashboard Alpha',
+            title: 'Dashboard',
           },
           component: () => import('./views/dashboard/alpha'),
         },

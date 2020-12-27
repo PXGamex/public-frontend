@@ -17,7 +17,7 @@ export default {
   state: {
     ...STORED_SETTINGS({
       authProvider: 'firebase', // firebase, jwt
-      logo: 'Clean UI Pro',
+      logo: 'BRIME',
       locale: 'en-US',
       isSidebarOpen: false,
       isSupportChatOpen: false,
@@ -27,7 +27,7 @@ export default {
       menuLayoutType: 'left', // left, top, nomenu
       routerAnimation: 'slide-fadein-up', // none, slide-fadein-up, slide-fadein-right, fadein, zoom-fadein
       menuColor: 'white', // white, dark, gray
-      theme: 'default', // default, dark
+      theme: 'dark', // default, dark
       authPagesColor: 'white', // white, gray, image
       primaryColor: '#4b7cf3',
       leftMenuWidth: 256,

@@ -22,9 +22,9 @@
     >
       <div :class="$style.logoContainer">
         <div :class="$style.logo">
-          <img src="resources/images/logo.svg" class="mr-2" alt="Clean UI" />
+          <img src="resources/images/logo.svg" class="mr-2" alt="Brime logo" />
           <div :class="$style.name">{{ settings.logo }}</div>
-          <div v-if="settings.logo === 'Clean UI Pro'" :class="$style.descr">Vue</div>
+          <div v-if="settings.logo === 'BRIME'" :class="$style.descr">Live</div>
         </div>
       </div>
       <vue-custom-scrollbar
@@ -59,13 +59,13 @@
           </template>
         </a-menu>
         <div :class="$style.banner">
-          <p>More components, more style, more themes, and premium support!</p>
+          <p>Get Brime Prime Today!</p>
           <a
             href="https://themeforest.net/item/clean-ui-react-admin-template/21938700"
             target="_blank"
             rel="noopener noreferrer"
             class="btn btn-sm btn-success btn-rounded px-3"
-          >Buy Bundle</a>
+          >Subscribe</a>
         </div>
       </vue-custom-scrollbar>
     </div>

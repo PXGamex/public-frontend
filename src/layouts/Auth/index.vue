@@ -24,7 +24,7 @@
             <div :class="$style.logo">
               <img src="resources/images/logo.svg" class="mr-2" alt="Clean UI" />
               <div :class="$style.name">{{ settings.logo }}</div>
-              <div v-if="settings.logo === 'Clean UI Pro'" :class="$style.descr">Vue</div>
+              <div v-if="settings.logo === 'BRIME'" :class="$style.descr">Live</div>
             </div>
           </div>
           <div class="d-none d-sm-block">
@@ -59,12 +59,7 @@
             </li>
           </ul>
           <div class="text-center">
-            Copyright © 2017-2020 Mdtk Soft |
-            <a
-              href="https://www.mediatec.org/privacy"
-              target="_blank"
-              rel="noopener noreferrer"
-            >Privacy Policy</a>
+            © 2020 BRIME
           </div>
         </div>
       </div>

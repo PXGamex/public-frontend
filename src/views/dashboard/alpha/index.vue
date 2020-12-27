@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="cui__utils__heading">
-      <strong>Today Statistics</strong>
+      <strong>Trending Categories</strong>
     </div>
     <div class="row">
       <div class="col-xl-4">
@@ -21,13 +21,13 @@
       </div>
     </div>
     <div class="cui__utils__heading">
-      <strong>Last Month Statistics</strong>
+      <strong>TRENDING STREAMERS</strong>
     </div>
     <div class="row">
       <div class="col-xl-3 col-lg-6">
         <div class="card">
           <div class="card-body">
-            <cui-chart-4 />
+            <kit-general-8 />
           </div>
         </div>
       </div>
@@ -144,7 +144,6 @@
 </template>
 
 <script>
-import CuiChart4 from '@/components/kit/widgets/Charts/4'
 import CuiChart4v1 from '@/components/kit/widgets/Charts/4v1'
 import CuiChart4v2 from '@/components/kit/widgets/Charts/4v2'
 import CuiChart4v3 from '@/components/kit/widgets/Charts/4v3'
@@ -158,6 +157,7 @@ import CuiGeneral18 from '@/components/kit/widgets/General/18'
 import CuiGeneral18v1 from '@/components/kit/widgets/General/18v1'
 import CuiGeneral6 from '@/components/kit/widgets/General/6'
 import CuiGeneral6v1 from '@/components/kit/widgets/General/6v1'
+import KitGeneral8 from '@/components/kit/widgets/General/8'
 
 import data from './data.json'
 
@@ -198,7 +198,7 @@ const tableColumns = [
 
 export default {
   components: {
-    CuiChart4,
+    KitGeneral8,
     CuiChart4v1,
     CuiChart4v2,
     CuiChart4v3,

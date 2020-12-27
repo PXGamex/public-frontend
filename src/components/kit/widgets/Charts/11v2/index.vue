@@ -1,7 +1,7 @@
 <template>
   <div class="card-body position-relative overflow-hidden">
-    <div class="font-size-36 font-weight-bold text-dark mb-n2">$240.56</div>
-    <div class="text-uppercase">Outcome</div>
+    <div class="font-size-36 font-weight-bold text-dark mb-n2">Game Dev</div>
+    <div class="text-uppercase">324,000 viewers</div>
     <div :class="$style.chartContainer">
       <vue-chartist
         :class="$style.chart"
