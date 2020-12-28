@@ -1,5 +1,3 @@
-[![Build Status]]
-
 ### Brime Frontend ###
 https://brimelive.com
 
