@@ -16,7 +16,7 @@ const STORED_SETTINGS = storedSettings => {
 export default {
   state: {
     ...STORED_SETTINGS({
-      authProvider: 'firebase', // firebase, jwt
+      authProvider: 'jwt', // firebase, jwt
       logo: 'BRIME',
       locale: 'en-US',
       isSidebarOpen: false,
@@ -26,9 +26,9 @@ export default {
       isMenuCollapsed: false,
       menuLayoutType: 'left', // left, top, nomenu
       routerAnimation: 'slide-fadein-up', // none, slide-fadein-up, slide-fadein-right, fadein, zoom-fadein
-      menuColor: 'white', // white, dark, gray
+      menuColor: 'dark', // white, dark, gray
       theme: 'dark', // default, dark
-      authPagesColor: 'white', // white, gray, image
+      authPagesColor: 'gray', // white, gray, image
       primaryColor: '#4b7cf3',
       leftMenuWidth: 256,
       isMenuUnfixed: false,

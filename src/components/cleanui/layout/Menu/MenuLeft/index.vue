@@ -61,7 +61,7 @@
         <div :class="$style.banner">
           <p>Get Brime Prime Today!</p>
           <a
-            href="https://themeforest.net/item/clean-ui-react-admin-template/21938700"
+            href="https://brimelive.com"
             target="_blank"
             rel="noopener noreferrer"
             class="btn btn-sm btn-success btn-rounded px-3"

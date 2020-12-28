@@ -19,6 +19,13 @@ import './registerServiceWorker'
 // mocking api
 import './services/axios/fakeApi'
 
+import VuePlyr from 'vue-plyr/dist/vue-plyr.ssr.js'
+import 'vue-plyr/dist/vue-plyr.css'
+
+Vue.use(VuePlyr, {
+  plyr: {},
+})
+
 Vue.use(BootstrapVue)
 Vue.use(VueLayers)
 

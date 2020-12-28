@@ -15,7 +15,7 @@ const router = new Router({
   routes: [
     {
       path: '/',
-      redirect: 'dashboard/alpha',
+      redirect: 'dashboard',
       component: MainLayout,
       meta: {
         authRequired: true,
@@ -58,6 +58,13 @@ const router = new Router({
             title: 'Ecommerce Dashboard',
           },
           component: () => import('./views/ecommerce/dashboard'),
+        },
+        {
+          path: '/channel',
+          meta: {
+            title: 'Channel',
+          },
+          component: () => import('./views/channel'),
         },
         {
           path: '/ecommerce/orders',

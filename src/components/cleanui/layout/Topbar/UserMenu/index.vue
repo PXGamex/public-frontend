@@ -11,9 +11,6 @@
           <strong>{{ $t('topBar.profileMenu.hello') }}, {{ user.name || 'Anonymous' }}</strong>
         </div>
         <div>
-          <strong class="mr-1">{{ $t('topBar.profileMenu.billingPlan') }}:</strong> Professional
-        </div>
-        <div>
           <strong class="mr-1">{{ $t('topBar.profileMenu.role') }}:</strong>
           {{ user.role || '—' }}
         </div>

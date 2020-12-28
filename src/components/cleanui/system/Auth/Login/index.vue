@@ -5,11 +5,9 @@
         <strong>Welcome to {{ settings.logo }}</strong>
       </h1>
       <p>
-        Pluggable enterprise-level application framework.
-        <br />An excellent front-end solution for web applications built upon Ant Design.
         <br />Credentials for testing purposes -
-        <strong>demo@sellpixels.com</strong> /
-        <strong>demo123</strong>
+        <strong>demo@brimelive.com</strong> /
+        <strong>Brime123!</strong>
       </p>
     </div>
     <div class="card" :class="$style.container">
@@ -21,19 +19,19 @@
           :value="settings.authProvider"
           @change="e => changeAuthProvider(e.target.value)"
         >
-          <a-radio value="firebase">Firebase</a-radio>
-          <a-radio value="jwt">JWT</a-radio>
+          <a-radio value="firebase" hidden>Firebase</a-radio>
+          <a-radio value="jwt" hidden>JWT</a-radio>
           <a-tooltip>
             <template slot="title">
               <span>Read Docs Guide</span>
             </template>
-            <a-radio value="auth0" disabled>Auth0</a-radio>
+            <a-radio value="auth0" disabled hidden>Auth0</a-radio>
           </a-tooltip>
           <a-tooltip>
             <template slot="title">
               <span>Read Docs Guide</span>
             </template>
-            <a-radio value="strapi" disabled>Strapi</a-radio>
+            <a-radio value="strapi" disabled hidden> Strapi</a-radio>
           </a-tooltip>
         </a-radio-group>
       </div>
@@ -42,7 +40,7 @@
           <a-input
             size="large"
             placeholder="Email"
-            v-decorator="['email', { initialValue: 'demo@sellpixels.com', rules: [{ required: true, message: 'Please input your username!' }]}]"
+            v-decorator="['email', { initialValue: 'demo@brimelive.com', rules: [{ required: true, message: 'Please input your username!' }]}]"
           />
         </a-form-item>
         <a-form-item>
