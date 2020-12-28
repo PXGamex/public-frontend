@@ -48,7 +48,7 @@
             size="large"
             placeholder="Password"
             type="password"
-            v-decorator="['password', {initialValue: 'demo123', rules: [{ required: true, message: 'Please input your Password!' }]}]"
+            v-decorator="['password', {initialValue: 'Brime123!', rules: [{ required: true, message: 'Please input your Password!' }]}]"
           />
         </a-form-item>
         <a-button
