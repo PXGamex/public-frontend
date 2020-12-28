@@ -37,7 +37,7 @@ padding: 0 2rem;
 .components > div {
 margin-left: -60px;
 margin-top: -31px;
-max-width: 1200px;
+max-width: 1340px;
 }
 
 h1 {
