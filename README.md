@@ -4,6 +4,9 @@ https://brimelive.com
 ### Documentation ###
 Coming soon
 
+### Latest Build Demo ###
+https://brime.netlify.app/
+
 ### Quick Start ###
 * Install latest node.js: https://nodejs.org​
 * Install latest yarn package manager: https://yarnpkg.com/​
